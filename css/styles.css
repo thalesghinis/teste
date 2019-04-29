@@ -131,14 +131,13 @@ body {
 */
 .spot {
     width: 100vw;
-    padding: 70px 0;
-    
+    padding: 50px 0;
     color: black;
     text-align: center;
 }
 
 .spot img {
-    margin-bottom: 15px;
+    margin-bottom: -10px;
 }
 
 .spot h2 {
@@ -164,7 +163,7 @@ body {
 }
 
 .skills .container {
-    display: flex;
+    display: inline-block;
     flex-flow: row nowrap;
 }
 
@@ -180,6 +179,8 @@ body {
     margin-left: 15px;
 }
 
+
+
 .retangulo {
     width: 50%;
     margin-left: 15px;
@@ -187,15 +188,27 @@ body {
 }
 
 .projects {
-    background-color: #10c9c3;
-    margin: 50px 50 50 50;
+    background-color: #10c9c3;  
+    padding: 50px;
 }
 
-
-.projects .container img {
-    width: 50px;
+.projects .container {
+    display: flex;
+    padding: 50px;
     margin: 50 50 50 50;
 }
+
+.projects .container img {
+    width: 40px;
+    height: 40px;
+}
+
+.vitral  img {
+    width: 100px;
+    padding: 0;
+}
+
+
 
 
 /*------- RESPPONSIVE AREA ------- */
