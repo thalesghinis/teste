@@ -286,10 +286,16 @@ body {
     padding-left: 170px;
 }
 
+.jobs {
+    background-color: #787878;
+}
+
 .jobs .container {
     align-items: center;
-    background-color: black;
+    background-color: #e9c1c1;
     padding: 50px;
+    color: black;
+    text-align:center;
 }
 
 .jobs .container img {
@@ -297,13 +303,14 @@ body {
     height: 40px;
 }
 
+
 .jobs .container img p span {
     align-items: center;
-
 }
 
 .jobs .container span {
     font-size: 12px;
+    color: #787878;
 }
 
 .jobs .container p {
@@ -342,6 +349,7 @@ body {
 .form {
     background-color: #f5f5f5;
     margin-bottom: 50px;
+    padding: 40px;
 }
 
 
@@ -366,13 +374,19 @@ body {
 
 .foot {
     background-color: #141414;
-    padding: 50px;
+    padding: 40px;
     color: white;
+    margin-top: -50px;    
+}
+
+.foot p {
+    font-size: 14px;    
 }
 
 ul {
     list-style-type: none;
     margin-left: 100px;
+    font-size: 14px;
 }
 
 ul a {
