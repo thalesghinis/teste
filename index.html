@@ -22,27 +22,44 @@
                 <img class="logo" src="images/logo.png" alt="Logo">
             </div>
             <nav class="navbar">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">PROCESS</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">TESTIMONIALS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
+                <b>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">PROCESS</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">TESTIMONIALS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </b>
             </nav>
         </div>
     </header>
-
     <section class="page home">
         <div class="container">
-            <h1>WEB Design and Develop</h1>
-            <p>We are a new design studio based in USA. We have over
-                20 years of combined experience, and know a thing or two
-                about designing websites and mobile apps.</p> <a href="#">Contact Us</a>
+            <div class="row">
+                <div class="col-12 col-md-6"></div>
+                <div class="col-6 col-md-6">
+                    <h1>WEB Design and Develop</h1>
+                    <p>We are a new design studio based in USA. We have over
+                        20 years of combined experience, and know a thing or two
+                        about designing websites and mobile apps.</p>
+                    <a href="#">Contact Us</a>
+                </div>
+
+            </div>
         </div>
     </section>
+
+    <script>
+        window.addEventListener('scroll', function (e) {
+            var scrolled = window.pageYOffset;
+            const background = document.querySelector('.container');
+            background.style.top = - (scrolled * 0.5) + 'px';
+        });
+    </script>
+
 
     <section class="spot">
         <div class="container">
@@ -72,16 +89,22 @@
     </section>
     <section class="projects">
         <div class="container">
-            <div class="d-flex justify-content-around">
-                <img src="images/briefcase.png" alt="">
-                <div class="p-2">Flex item 1</div>
-                <img src="images/time.png" alt="">
-                <div class="p-2">Flex item 2</div>
-                <img src="images/star.png" alt="">
-                <div class="p-2">Flex item 3</div>
-                <img src="images/like.png" alt="">
-                <div class="p-2">Flex item 3</div>
+            <div class="row">
+                <div class="col-12 col-sm-3"><img src="images/briefcase.png" alt="">
+                    <div class="p-2">Flex item 1</div>
+                </div>
+                <div class="col-12 col-sm-3"><img src="images/time.png" alt="">
+                    <div class="p-2">Flex item 2</div>
+                </div>
+                <div class="col-12 col-sm-3"><img src="images/star.png" alt="">
+                    <div class="p-2">Flex item 3</div>
+                </div>
+                <div class="col-12 col-sm-3"><img src="images/like.png" alt="">
+                    <div class="p-2">Flex item 3</div>
+                </div>
             </div>
+
+
         </div>
     </section>
     <section class="vitral">
@@ -167,33 +190,34 @@
     <section class="form">
         <div class="container">
             <h4><b>Need a Project?</b></h4>
-            <p>Let us know what you're looking for in an agency. We'll take a look and see 
-                    if this could be the start of something beautiful.</p>
+            <p>Let us know what you're looking for in an agency. We'll take a look and see
+                if this could be the start of something beautiful.</p>
             <form>
                 <div class="form-row">
-                        <div class="form-group col-md-6">
-                                <label for="inputName4">Name</label>
-                                <input type="text" class="form-control" id="inputName4" placeholder="Your Name">
-                              </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputName4">Name</label>
+                        <input type="text" class="form-control" id="inputName4" placeholder="Your Name">
+                    </div>
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
                         <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
                     </div>
                 </div>
                 <div class="form-group">
-                        <label for="exampleInputTitle1">Your Title</label>
-                        <input type="email" class="form-control" id="exampleInputTitle1" aria-describedby="emailHelp" placeholder="Your Title">
-                      </div>
+                    <label for="exampleInputTitle1">Your Title</label>
+                    <input type="email" class="form-control" id="exampleInputTitle1" aria-describedby="emailHelp"
+                        placeholder="Your Title">
+                </div>
 
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
                 <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Your Comment</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                      <a href="#">Contact Us</a>
+                    <label for="exampleFormControlTextarea1">Your Comment</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <a href="#">Contact Us</a>
             </form>
         </div>
     </section>
