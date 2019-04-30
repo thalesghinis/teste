@@ -13,7 +13,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -47,6 +47,10 @@ body {
     justify-content: space-between;
 }
 
+.top-header .container .logo {
+    margin-left: -100px;
+}
+
 .top-header .name {
     position: relative;
     top: -5px;
@@ -56,7 +60,8 @@ body {
 }
 
 .top-header .navbar {
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-right: -50px;
 }
 
 .top-header .navbar ul {
@@ -175,6 +180,9 @@ body {
 .skills .container {
     display: inline-block;
     flex-flow: row nowrap;
+    padding: 60px;
+    margin-top: -100px;  
+    margin-left: 100px;
 }
 
 .skills .container p {
@@ -197,11 +205,10 @@ body {
     margin-top: -35px;
 }
 
-
-
 .projects {
     background-color: #10c9c3;  
-    padding: 50px;
+    padding: 100px;
+    margin-left: -40px;
 }
 
 .projects .container {
@@ -210,16 +217,27 @@ body {
     margin: 50 50 50 50;
 }
 
-.projects .container .row {
-    margin-left: 82px;
-    padding: 50px;
+.project .row {
+    margin-left: -20px;
 }
 
-
-
 .projects .container img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+}
+
+.projects .container .row .cases {
+    display: inline-flex;
+}
+
+.projects .container .row p {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.projects .container .row .cases p {
+    display: inline;
 }
 
 .vitral  img {
@@ -233,12 +251,12 @@ body {
 }
 
 .load .container {
-    padding: 10px 10%;
+    padding: 14px 35%;
 }
 
 .load .container p {
     font-size: 12px;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 .process {
@@ -314,16 +332,23 @@ body {
 .partners img {
     width: 17%;
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 24px;
+}
+
+.partners .container {
+    padding: 0px;
 }
 
 .form {
     background-color: #f5f5f5;
+    margin-bottom: 50px;
 }
 
-.form .container    h4 {
+
+
+.form .container h4 {
     text-align: center;
-    padding: 50px;
+    padding: -112px;
 }
 
 .form .container a{
@@ -337,7 +362,27 @@ body {
     background: #39b4af;
     margin: 0 auto;
     margin-bottom: 15%;
+}
 
+.foot {
+    background-color: #141414;
+    padding: 50px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover {
+    color: #39b4af;
+    
+}
 
 /*------- RESPPONSIVE AREA ------- */
 
