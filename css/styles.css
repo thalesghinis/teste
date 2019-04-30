@@ -146,6 +146,10 @@ body {
     margin-bottom: 20px;
 }
 
+.spot p {
+    font-size: 12px;
+}
+
 .spot .container {
     width: 50%;
     margin: 0 auto;
@@ -170,6 +174,7 @@ body {
 .skills .container p {
     color:black;
     padding: 20px;
+    font-size: 12px;
 }
 
 .skills .container h2 {
@@ -177,14 +182,13 @@ body {
     margin-bottom: 20px;
     margin-top: 100px;
     margin-left: 15px;
+    font-size: 24px;
 }
-
-
 
 .retangulo {
     width: 50%;
     margin-left: 15px;
-    margin-top: -15px;
+    margin-top: -35px;
 }
 
 .projects {
@@ -204,11 +208,120 @@ body {
 }
 
 .vitral  img {
-    width: 100px;
-    padding: 0;
+    width: 250px;
+    padding: 0 0 0 0;
 }
 
+.load {
+    text-align: center;
+    background-color: #f5f5f5;
+}
 
+.load .container {
+    padding: 10px 10%;
+}
+
+.load .container p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.process {
+    width: 100vw;
+    padding: 50px 0;
+    color: black;
+    text-align: center;
+}
+
+.process h2 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.process p {
+    font-size: 12px;
+}
+
+.process .container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.video .container {
+    align-content: center;
+    padding-left: 170px;
+}
+
+.jobs .container {
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+}
+
+.jobs .container img {
+    width: 40px;
+    height: 40px;
+}
+
+.jobs .container img p span {
+    align-items: center;
+
+}
+
+.jobs .container span {
+    font-size: 12px;
+}
+
+.jobs .container p {
+    font-size: 12px;
+}
+
+.reviews {
+    width: 100vw;
+    padding: 50px 0;
+    color: black;
+    text-align: center;
+    background-color: #10c9c3;
+}
+
+.reviews p {
+    font-size: 16px;
+    color: white;
+}
+
+.reviews span {
+    font-size: 10px;
+    margin: 0 auto;
+    color: white;
+}
+
+.partners img {
+    width: 17%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.form {
+    background-color: #f5f5f5;
+}
+
+.form .container h4 {
+    text-align: center;
+    padding: 50px;
+}
+
+.form .container a{
+    display: table  ;
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background: #39b4af;
+    margin: 0 auto;
+    margin-bottom: 15%;
 
 
 /*------- RESPPONSIVE AREA ------- */
