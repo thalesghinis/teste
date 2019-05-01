@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/parallax.js" defer></script>
 
 
 </head>
@@ -51,16 +53,6 @@
             </div>
         </div>
     </section>
-
-    <script>
-        window.addEventListener('scroll', function (e) {
-            var scrolled = window.pageYOffset;
-            const background = document.querySelector('.container');
-            background.style.top = - (scrolled * 0.5) + 'px';
-        });
-    </script>
-
-
     <section class="spot">
         <div class="container">
             <h2>About Us</h2>
@@ -75,16 +67,13 @@
 
     <section class="skills">
         <div class="container">
-            <div>
-                <h2><b>Professional Skills</b></h2>
-                <p>UI / UX DESIGN 75%</p>
-                <img class="retangulo" src="images/uxretangulo.png" alt="">
-                <p>WEB DEVELOPMENT 90%</p>
-                <img class="retangulo" src="images/webretangulo.png" alt="">
-                <p>MARKETING 65%</p>
-                <img class="retangulo" src="images/mktretangulo.png" alt="">
-
-            </div>
+            <h2>Professional Skills</h2>
+            <p>UI / UX DESIGN 75%</p>
+            <img class="retangulo" src="images/uxretangulo.png" alt="">
+            <p>WEB DEVELOPMENT 90%</p>
+            <img class="retangulo" src="images/webretangulo.png" alt="">
+            <p>MARKETING 65%</p>
+            <img class="retangulo" src="images/mktretangulo.png" alt="">
         </div>
     </section>
     <section class="projects">
@@ -103,21 +92,19 @@
                     <p>735 <br> HAPPY CLIENTS</p>
                 </div>
             </div>
-
-
         </div>
     </section>
     <section class="vitral">
-        <div class="row">
-            <div class="col"><img src="images/white.jpg" alt=""></div>
-            <div class="col"><img src="images/black.jpg" alt=""></div>
-            <div class="col"><img src="images/white.jpg" alt=""></div>
-            <div class="col"><img src="images/black.jpg" alt=""></div>
-            <div class="w-100"></div>
-            <div class="col"><img src="images/black.jpg" alt=""></div>
-            <div class="col"><img src="images/white.jpg" alt=""></div>
-            <div class="col"><img src="images/black.jpg" alt=""></div>
-            <div class="col"><img src="images/white.jpg" alt=""></div>
+        <div class="d-flex align-content-stretch flex-wrap">
+            <div class="col-3 square"><img src="images/imac250.jpg" alt=""></div>
+            <div class="col-3 square bg-dark"></div>
+            <div class="col-3 square"></div>
+            <div class="col-3 square bg-dark"></div>
+
+            <div class="col-3 square bg-dark"></div>
+            <div class="col-3 square"></div>
+            <div class="col-3 square bg-dark"></div>
+            <div class="col-3 square"></div>
         </div>
     </section>
     <section class="load">
