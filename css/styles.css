@@ -176,35 +176,69 @@ body {
 */
 
 
-.skills {
-    background-image: url(../images/bgskill.jpg);
+
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    color:#FFF;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1920px;  
+    position: relative;
+    min-height: 100%;
+    margin-bottom: 0px;
+
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
-.skills .container {
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: left;
-}
-
-.skills .container p {
-    color:black;
-    padding: 20px;
-    font-size: 12px;
-}
-
-.skills .container h2 {
+.bgParallax h2 {
     color: black;
-    margin-bottom: 20px;
-    margin-left: 15px;
+    font-weight: bold;
+    text-align: initial;
     font-size: 24px;
-    font-weight: bold;  
+    margin-left: 150px;
+    margin-top: 100px;
 }
+
+.bgParallax p {
+    color: black;
+    text-align: initial;
+    font-size: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Define backgrounds dos divs */
+#professional {background-image: url(../images/appleantigo.jpg);}
+
+#skill {
+    background-image: url(../images/programacao.jpg);
+    -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.);
+    -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.);
+    -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.);
+    -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.);
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.);
+}
+
+
+/** Formata o article que vai o texto **/
+.bgParallax article {
+  width: 70%;
+  text-align: initial;
+  margin: 100 auto;
+  padding:20% 0 0;
+}
+
 
 .retangulo {
-    width: 50%;
-    margin-left: 15px;
-    margin-top: -35px;
+    width: 30%;
+    margin-left: 150px;
+    margin-top: -80px;
 }
 
 .projects {
@@ -298,15 +332,11 @@ body {
     margin: 0 auto;
 }
 
-
-.video .container {
-    align-content: center;
-    padding-left: 240px;
-}
-
 .jobs {
     background-color: #f5f5f5;
 }
+
+
 
 .jobs .container {
     align-items: center;
